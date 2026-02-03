@@ -1,0 +1,34 @@
+{
+  "github": {
+    "api_base_url": "https://api.github.com",
+    "repository": {
+      "owner": "peem0sh",
+      "name": "uipath",
+      "full_name": "peem0sh/uipath"
+    },
+    "api_version": "v3",
+    "accept_header": "application/vnd.github.v3+json",
+    "endpoints": {
+      "repository_info": "/repos/peem0sh/uipath",
+      "contents": "/repos/peem0sh/uipath/contents",
+      "commits": "/repos/peem0sh/uipath/commits",
+      "issues": "/repos/peem0sh/uipath/issues",
+      "pulls": "/repos/peem0sh/uipath/pulls",
+      "branches": "/repos/peem0sh/uipath/branches"
+    },
+    "timeout_seconds": 30,
+    "retry_attempts": 3,
+    "retry_delay_ms": 1000
+  },
+  "uipath": {
+    "asset_names": {
+      "github_token": "GitHubToken",
+      "github_username": "GitHubUsername"
+    },
+    "logging": {
+      "enabled": true,
+      "level": "Information",
+      "log_api_requests": true
+    }
+  }
+}

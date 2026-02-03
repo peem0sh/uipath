@@ -1,0 +1,74 @@
+# UIPath specific files
+*.xaml.cs
+*.nupkg
+project.json
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.local
+*.secrets
+
+# Token files (NEVER commit these!)
+*.token
+*.secret
+.secrets/
+credentials.json
+github-token.txt
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Node modules (if any JavaScript tools are used)
+node_modules/
+npm-debug.log
+
+# Python (if any Python scripts are used)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+ENV/
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.backup
+*~
