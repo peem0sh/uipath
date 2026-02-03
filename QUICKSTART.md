@@ -103,7 +103,7 @@ Now that you have basic access working, you can:
    - Creating issues automatically
 
 3. **Use the configuration file:**
-   - Load [config/github-config.json](../config/github-config.json) in your workflows
+   - Load [config/github-config.json](config/github-config.json) in your workflows
    - Use it to store API endpoints and settings
 
 4. **Implement error handling:**
@@ -174,8 +174,8 @@ If this works, your token is valid and UIPath will work too!
 ## Need Help?
 
 If you encounter issues:
-1. Check the detailed [README.md](../README.md) for comprehensive documentation
-2. Review the [integration examples](./UIPath-GitHub-Integration-Examples.md)
+1. Check the detailed [README.md](README.md) for comprehensive documentation
+2. Review the [integration examples](examples/UIPath-GitHub-Integration-Examples.md)
 3. Create an issue in this repository with:
    - Description of the problem
    - Error messages (without tokens!)

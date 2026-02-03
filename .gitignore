@@ -13,9 +13,11 @@ logs/
 *.secrets
 
 # Token files (NEVER commit these!)
-*token*
-*secret*
-*credential*
+*.token
+*.secret
+.secrets/
+credentials.json
+github-token.txt
 
 # Temporary files
 *.tmp
